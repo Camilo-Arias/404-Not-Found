@@ -10,10 +10,12 @@ h1 {
   font-size: 24px;
   letter-spacing: -0.1em;
   color: #333333;
-  margin: 0;
+  margin: 0 0 64px 0;
 }
 
 img {
+  display: block;
+  margin: auto;
   height: 238px;
   width: 287px;
 }
@@ -22,6 +24,7 @@ img {
   font-weight: bold;
   font-size: 47px;
   letter-spacing: -0.035em;
+  margin: 60px 0 30px;
   color: #333333;
 }
 
@@ -36,6 +39,7 @@ img {
   font-weight: bold;
   font-size: 14px;
   padding: 24px 43px;
+  margin: 64px 0 96px;
   background: #333333;
   color: #ffffff;
   letter-spacing: -0.035em;
@@ -43,5 +47,9 @@ img {
 
 .footer {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 14px;
   font-weight: 600;
+  margin: 0 0 42px;
+  padding: 0;
 }
