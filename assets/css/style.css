@@ -1,0 +1,47 @@
+body {
+  font-family: 'Space Mono', monospace;
+  margin: 20px 24px;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+  color: #333333;
+  margin: 0;
+}
+
+img {
+  height: 238px;
+  width: 287px;
+}
+
+.title-main {
+  font-weight: bold;
+  font-size: 47px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.back {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 24px 43px;
+  background: #333333;
+  color: #ffffff;
+  letter-spacing: -0.035em;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
