@@ -21,6 +21,10 @@ img {
   width: 287px;
 }
 
+.grid {
+  display: grid;
+}
+
 .title-main {
   font-weight: bold;
   font-size: 47px;
@@ -54,25 +58,47 @@ img {
   font-weight: 600;
   margin: 0 0 22px;
 }
-/* 
-@media (min-width: 700px) {
+
+@media screen and (min-width: 1024px) {
   body {
     padding: 40px 77px;
   }
 
-  .main {
-    display: inline-flex;
+  h1 {
+    margin-bottom: 200px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
   }
 
   img {
-    border: 1px solid red;
+    margin-top: 30px;
     width: 540px;
     height: 448px;
-    display: block;
   }
 
-  .content {
-    border: 1px solid blue;
-    width: 584px;
-    height: 470px;
-  } */
+  .title-main {
+    margin-top: 30px;
+    margin-bottom: 36px;
+    font-size: 63px;
+  }
+
+  .description-container {
+    max-width: 381px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .back {
+    margin: 36px 0 0;
+    margin-top: 36px;
+  }
+
+  .footer {
+    margin: 293px 0 0;
+  }
+}
