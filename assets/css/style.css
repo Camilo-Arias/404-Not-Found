@@ -51,6 +51,11 @@ img {
   cursor: pointer;
 }
 
+.back:hover {
+  background: #ffffff;
+  color: #333333;
+}
+
 .footer {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
